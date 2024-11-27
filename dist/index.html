@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider of orders</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-CQBtaDK7.css">
+</head>
+
+<body>
+    <section class="headbar">
+        <h1>CANDLES SEDUCTIVE</h1>
+    </section>
+
+    <section class="slider">
+        <div class="slider-top">
+            <button id="back" class="next-button" onclick=" previousSlide()">
+                <svg fill="white" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                    <path d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+        c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+        C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+        C255,161.018,253.42,157.202,250.606,154.389z" />
+                </svg>
+            </button>
+
+            <div class="photoes">
+                <img src="/assets/red_candle-C54UXtAS.jpg" alt="red candle" id="red" class="block">
+                <img src="/assets/black_candle-IcTCC56W.jpeg" alt="black candle" id="black">
+                <img src="/assets/blue_candle-CIOtu1V6.webp" alt="blue candle" id="blue">
+                <img src="/assets/pink_candle-C5Q5lHbH.jpg" alt="pink candle" id="pink">
+            </div>
+
+            <button id="next"  onclick="nextSlide()">
+                <svg fill="white" height="800px" width="800px" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                    <path d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+        c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+        C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+        C255,161.018,253.42,157.202,250.606,154.389z" />
+                </svg>
+            </button>
+        </div>
+        <div id="points" class="slider-bottom">
+            <button class="red"></button>
+            <button class="black"></button>
+            <button class="blue"></button>
+            <button class="pink"></button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

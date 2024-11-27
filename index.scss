@@ -1,0 +1,103 @@
+body {
+    background-color: rgba(71, 9, 9, 0.778);
+    user-select: none;
+}
+
+.headbar {
+    background-color: rgb(71, 9, 9);
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: aliceblue;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        word-spacing: 10px;
+        transition: .7s;
+        cursor: pointer;
+    }
+
+    h1:hover {
+        color: rgb(199, 203, 207);
+    }
+}
+
+.slider {
+    padding: 15px;
+
+
+    .slider-top {
+        display: flex;
+        align-items: center;
+
+        .next-button {
+            transform: rotate(180deg);
+        }
+
+        button {
+            cursor: pointer;
+
+            svg {
+                height: 20px;
+                width: 20px;
+            }
+        }
+
+        img {
+            position: absolute;
+            width: 250px;
+            height: 400px;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .block {
+            opacity: 1;
+        }
+    }
+
+    .slider-bottom {
+        button {
+            height: 20px;
+            width: 20px;
+            border-radius: 7px;
+            margin-left: 10px;
+            transition: .7s;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .red:hover {
+            background-color: rgb(159, 3, 3);
+        }
+
+        .black {
+            background-color: black;
+        }
+
+        .black:hover {
+            background-color: rgba(0, 0, 0, 0.608);
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .blue:hover {
+            background-color: rgb(3, 3, 176);
+        }
+
+        .pink {
+            background-color: pink;
+        }
+
+        .pink:hover {
+            background-color: rgb(204, 155, 163);
+        }
+    }
+}
